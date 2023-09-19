@@ -1,0 +1,125 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilos da seção de produtos */
+.produtos {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.produtos h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.produto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.produto img {
+    max-width: 100%;
+}
+
+.produto h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.produto p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.produto .preco {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff6600;
+}
+
+.produto .btn-comprar {
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+/*Tabela do Carrinho*/
+/* Estilos da tabela do carrinho */
+.carrinho table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.carrinho table th, .carrinho table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.carrinho table th {
+    background-color: #f2f2f2;
+}
+
+/* Estilos dos botões */
+.carrinho button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.carrinho button:hover {
+    background-color: #ff9900;
+}
+
+.carrinho .btn-finalizar-compra {
+    margin-right: 10px;
+}
+
+/*

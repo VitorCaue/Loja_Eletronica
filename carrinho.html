@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras - Minha Loja Virtual</title>
+    <link rel="stylesheet" href="Css/loja.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Minha Loja Virtual</h1>
+            <nav>
+                <ul>
+                    <li><a href="loja.html">Home</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="carrinho.html">Carrinho</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="carrinho">
+        <div class="container">
+            <h2>Meu Carrinho</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Quantidade</th>
+                        <th>Preço Unitário</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="carrinho-items">
+                    <!-- Os itens do carrinho serão adicionados aqui dinamicamente com JavaScript -->
+                </tbody>
+            </table>
+            <div class="total">
+                <p>Total: <span id="preco-total">R$0,00</span></p>
+                <a href="#" class="btn-finalizar-compra">Finalizar Compra</a>
+                <button onclick="limparCarrinho()">Limpar Carrinho</button> <!-- Botão para limpar o carrinho -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Minha Loja Virtual</p>
+        </div>
+    </footer>
+
+    <script src="script/carrinho.js"></script>
+    <script src="script/loja.js"></script>
+</body>
+</html>
